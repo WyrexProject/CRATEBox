@@ -1,6 +1,7 @@
 package;
 import haxe.ui.*;
-var 
-app.ready(function(){
-
+var main_app:Dynamic;
+main_app.ready(function(){
+   var mainBox = new HBox();
+   main_app.start();
 })
