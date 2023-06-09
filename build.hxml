@@ -1,7 +1,4 @@
+--library hxjava
 -C bin
---debug
--python build/cratebox.py
 --cmd "@echo Python version"
 -java build/java
--lua build/cratebox.lua
--cpp build/C++
