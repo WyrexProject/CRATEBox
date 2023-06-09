@@ -1,7 +1,9 @@
 package;
-import haxe.ui.*;
-var main_app:Dynamic;
-main_app.ready(function(){
+import haxe.ui.HaxeUIApp;
+app.ready(function(){
+   var ComponentStar = ComponentMacros.buildComponent("bin/assets/mainui.xml");
+   app.addComponent(ComponentStar);
+   
    var mainBox = new HBox();
    main_app.start();
 })
