@@ -1,5 +1,6 @@
 --library hxjava
 --cwd bin
+-cp binary
 -m binary.CodeMain
 #--neko build/cratebox.n
 --jvm build/cratebox.jar
