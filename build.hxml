@@ -1,4 +1,5 @@
 --library hxjava
--C bin
---cmd "@echo CRATEBox is made for Java!"
--jvm build/cratebox.jar
+--cwd bin
+-m binary.CodeMain
+#--neko build/cratebox.n
+--jvm build/cratebox.jar
